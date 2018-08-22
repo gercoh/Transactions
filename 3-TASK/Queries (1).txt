@@ -1,0 +1,3 @@
+first - SELECT SUM(`amount`) FROM `transactions` WHERE `status` = 'approved' AND MONTH(`create_date`) = MONTH(CURRENT_TIMESTAMP)
+
+second - SELECT (SUM(Monday)+SUM(Tuesday)+SUM(Wednesday)+SUM(Thursday)+SUM(Friday)+SUM(Saturday)+SUM(Sunday)) as `Total` FROM `test` WHERE 'id' =
